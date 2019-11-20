@@ -10,7 +10,7 @@ url: https://github.com/yhgao/yhgao.github.io
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl = "yhgao.github.io"
+baseurl : "/yhgao.github.io"
 ## default date_format
 date_format: 
   title: "%B-%-d-%Y"
@@ -20,10 +20,11 @@ date_format:
 # Language
 lan: "en" 
 
-paginate: 10
+plugins_dir: [jekyll-paginate]
+
 
 highlighter: rouge
 markdown: kramdown
-gems: ['jekyll-paginate']
+
 
 exclude: ['README.md', 'LICENSE', "*.bak"]
