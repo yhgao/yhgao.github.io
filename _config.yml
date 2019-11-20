@@ -20,11 +20,15 @@ date_format:
 # Language
 lan: "en" 
 
-plugins_dir: [jekyll-paginate]
 
+
+
+paginate: 10
 
 highlighter: rouge
 markdown: kramdown
+gems: ['jekyll-paginate']
 
 
 exclude: ['README.md', 'LICENSE', "*.bak"]
+plugins_dir: [jekyll-paginate]
