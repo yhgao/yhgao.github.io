@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Jekyll Xixia
 ============
 
@@ -52,3 +53,6 @@ Thanks
 [github-url]: https://github.com/
 [Jekyll-Clean-Theme-url]: https://github.com/scotte/jekyll-clean
 [xixia-url]: http://xixia.info/
+=======
+# yhgao.github.io
+>>>>>>> 6bbedfcbd3758c1117d5903f31c7c80e251f75bc
